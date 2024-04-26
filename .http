@@ -1,0 +1,20 @@
+
+
+### token
+GET http://localhost:3000/api/token
+
+### refresh
+POST http://localhost:3000/api/refresh HTTP/1.1
+content-type: application/json
+
+{
+  "refresh_token": "123"
+}
+
+### list
+GET http://localhost:3000/api/list
+Authorization: Bearer 123
+
+### other
+GET http://localhost:3000/api/other
+Authorization: Bearer 123
